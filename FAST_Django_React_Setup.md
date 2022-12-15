@@ -44,7 +44,7 @@ source venv/bin/activate
 ```bash
 touch .gitignore 
 ```
-# add venv to file
+add venv to file
 ```bash
 code .gitignore
 ```
