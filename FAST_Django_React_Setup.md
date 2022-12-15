@@ -10,7 +10,7 @@ cd Django_Auth_Review
 ## open two terminals to empty root directory -- 'Django_Auth_Review'
 name each one, and select color of each, one for backend(server) and one for frontend (client)
 
-# use frontend terminal
+# Use Frontend terminal
 ```bash
 npm create vite 
 ```
@@ -29,12 +29,12 @@ npm install
 npm run dev
 ```
 
-## install frontend dependencies -- # note: you will still need to use import on files using these
+## install Frontend dependencies -- # note: you will still need to use import on files using these
 ```bash
 npm install --save axios react-router-dom bootstrap react-bootstrap       
 ```
 
-# use backend terminal
+# use Backend terminal
 ```bash
 python3 -m venv venv
 ```
@@ -196,7 +196,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-## use frontend terminal -- Edit frontend files
+## use Frontend terminal -- Edit frontend files
 ### Edit vite.config.js
 ```bash
 code vite.config.js
