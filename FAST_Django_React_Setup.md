@@ -109,7 +109,7 @@ DATABASES = {
     }
 }
 
-STATIC_URL = 'static/'  # ??
+STATIC_URL = 'static/' 
 #set static directory path in settings.py
 STATICFILES_DIRS = [ BASE_DIR / 'static'  ]   #this is where out static stuff lives
 
