@@ -13,10 +13,14 @@ name each one, and select color of each, one for backend(server) and one for fro
 # use frontend terminal
 ```bash
 npm create vite 
+```
 > Project name: 'client'
 > Select a framework: React
 > Select a variant: JavaScript
+```bash
 cd client
+```
+```bash
 npm install
 ```
 ## move public/vite.svg image into src/assets folder, mimic what is done with reactLogo in App.jsx
@@ -33,21 +37,52 @@ npm install --save axios react-router-dom bootstrap react-bootstrap
 # use backend terminal
 ```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate
+```
+```bash
 touch .gitignore 
-code .gitignore         # add venv to file
+```
+# add venv to file
+```bash
+code .gitignore
+```
+```bash
 pip install django psycopg2 djangorestframework markdown django-filter
+```
+```bash
 python -m django startproject server
+```
+```bash
 cd server
+```
+```bash
 python -m django startapp server_app
+```
+```bash
 mkdir static
-touch .gitignore        
-code .gitignore        # add static
+```
+```bash
+touch .gitignore 
+```
+add static to gitignore
+```bash
+code .gitignore
+```
+```bash
 touch server_app/urls.py
+```
+```bash
 dropdb database_name
+```
+```bash
 createdb database_name
+```
+```bash
 pip freeze > requirements.txt
 ```
+
 ## "sanity" check, check that back end is working correctly, Ctrl+c to end
 ```bash
 python3 manage.py runserver
