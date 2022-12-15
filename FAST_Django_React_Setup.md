@@ -13,13 +13,13 @@ name each one, and select color of each, one for backend(server) and one for fro
 # use frontend terminal
 ```bash
 npm create vite 
->Project name: 'client'
->Select a framework: React
+> Project name: 'client'
+> Select a framework: React
 > Select a variant: JavaScript
 cd client
 npm install
 ```
-## move public/vite.svg image into src/assets folder, minic what is done with reactLogo in App.jsx
+## move public/vite.svg image into src/assets folder, mimic what is done with reactLogo in App.jsx
 ## "sanity" check, check that front end is working correctly, Ctrl+c to end
 ```bash
 npm run dev
