@@ -3,8 +3,14 @@
 # Create empty root directory --  we're in root directory for application
 ```bash
 mkdir Day1
+```
+```bash
 cd Day1
+```
+```bash
 mkdir Django_Auth_Review
+```
+```bash
 cd Django_Auth_Review 
 ```    
 ## open two terminals to empty root directory -- 'Django_Auth_Review'
@@ -44,7 +50,7 @@ source venv/bin/activate
 ```bash
 touch .gitignore 
 ```
-add venv to file
+add venv to .gitignore file
 ```bash
 code .gitignore
 ```
@@ -90,7 +96,7 @@ python3 manage.py runserver
 
 # Connect Backend and Frontend
 ## use backend terminal -- Edit backend files
-### Edit server/settings.py
+### Edit server/settings.py, add code to file
 ```bash
 code server/settings.py
 ```
