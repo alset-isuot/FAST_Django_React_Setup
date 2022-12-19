@@ -23,6 +23,7 @@ npm create vite
 Type in name of the frontend
 
 ? Project name:
+> client
 
 We scaffolding our frontend by selecting template presets of:
 
