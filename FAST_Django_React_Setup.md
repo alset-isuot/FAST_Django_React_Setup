@@ -62,7 +62,7 @@ source .venv/bin/activate
 ```bash
 touch .gitignore 
 ```
-add venv to .gitignore file
+add .venv to .gitignore file
 ```bash
 code .gitignore
 ```
