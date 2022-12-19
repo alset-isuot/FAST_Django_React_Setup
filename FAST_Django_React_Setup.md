@@ -20,9 +20,14 @@ name each one, and select color of each, one for backend(server) and one for fro
 ```bash
 npm create vite 
 ```
-> Project name: 'client'
-> Select a framework: React
-> Select a variant: JavaScript
+Type in name of the frontend
+? Project name:
+We scaffolding our frontend by selecting template presets of:
+? Select a framework: 
+> react
+? Select a variant:
+>react or >javascript
+
 ```bash
 cd client
 ```
