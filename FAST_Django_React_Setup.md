@@ -41,7 +41,7 @@ cd client
 ```bash
 npm install
 ```
-## move public/vite.svg image into src/assets folder, mimic what is done with reactLogo in App.jsx
+## How to fix Vite Image: Move public/vite.svg image into src/assets folder, mimic what is done with reactLogo in App.jsx
 ## "sanity" check, check that front end is working correctly, Ctrl+c to end
 ```bash
 npm run dev
