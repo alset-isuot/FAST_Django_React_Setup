@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-## install Frontend dependencies -- # note: you will still need to use import on files using these
+## install Frontend dependencies -- note: you will still need to use import on files using these
 ```bash
 npm install --save axios react-router-dom bootstrap react-bootstrap       
 ```
@@ -236,9 +236,10 @@ code package.json
     "preview": "vite preview"
   },
 ```
+
 ```bash
-npm run build
-npm run build:watch
+npm run build          # will build the project once
+npm run build:watch.   # will build the project every time a front end file is saved
 ```
 
 # See if Django is hosting correctly
