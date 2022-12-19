@@ -251,7 +251,7 @@ code package.json
 
 ```bash
 npm run build          # will build the project once
-npm run build:watch.   # will build the project every time a front end file is saved
+npm run build:watch   # will build the project every time a front end file is saved
 ```
 
 # See if Django is hosting correctly
