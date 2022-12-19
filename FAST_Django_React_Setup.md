@@ -29,9 +29,10 @@ We scaffolding our frontend by selecting template presets of:
 ? Select a framework: 
 
 > react
+
 ? Select a variant:
 
->react or >javascript
+>react or javascript
 
 ```bash
 cd client
