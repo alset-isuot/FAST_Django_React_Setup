@@ -21,11 +21,16 @@ name each one, and select color of each, one for backend(server) and one for fro
 npm create vite 
 ```
 Type in name of the frontend
+
 ? Project name:
+
 We scaffolding our frontend by selecting template presets of:
+
 ? Select a framework: 
+
 > react
 ? Select a variant:
+
 >react or >javascript
 
 ```bash
