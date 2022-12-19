@@ -54,10 +54,10 @@ npm install --save axios react-router-dom bootstrap react-bootstrap
 
 # use Backend terminal
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 ```bash
 touch .gitignore 
