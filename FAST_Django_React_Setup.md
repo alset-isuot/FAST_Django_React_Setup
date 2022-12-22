@@ -61,13 +61,15 @@ Activate virtual environment
 ```bash
 source .venv/bin/activate
 ```
+Create .gitignore file
 ```bash
 touch .gitignore 
 ```
-add .venv to .gitignore file
+Add .venv to .gitignore file
 ```bash
 code .gitignore
 ```
+Django pip installs
 ```bash
 pip install django psycopg2 djangorestframework markdown django-filter
 ```
@@ -80,25 +82,31 @@ cd server
 ```bash
 python -m django startapp server_app
 ```
+Create static folder
 ```bash
 mkdir static
 ```
+Create .gitignore file
 ```bash
 touch .gitignore 
 ```
-add static to .gitignore, when someone else clones our app, they use build command to repopulate the 'static' folder
+add static to .gitignore, when someone else clones our app, they will use build command to repopulate the 'static' folder
 ```bash
 code .gitignore
 ```
+
 ```bash
 touch server_app/urls.py
 ```
+If wanted name of database is already been used, you must drop it to create a new one with same name
 ```bash
 dropdb database_name
 ```
+Create database
 ```bash
 createdb database_name
 ```
+Save requirements
 ```bash
 pip freeze > requirements.txt
 ```
