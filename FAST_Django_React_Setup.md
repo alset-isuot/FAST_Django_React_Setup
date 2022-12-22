@@ -98,7 +98,7 @@ Create urls.py for django app
 ```bash
 touch server_app/urls.py
 ```
-If wanted name of database is already been used, you must drop it to create a new one with same name
+If wanted name of database has already been used, you must drop it to create a new one with same name
 ```bash
 dropdb database_name
 ```
