@@ -69,7 +69,7 @@ Add .venv to .gitignore file
 ```bash
 code .gitignore
 ```
-Django pip installs
+Django pip installs, backend setups
 ```bash
 pip install django psycopg2 djangorestframework markdown django-filter
 ```
