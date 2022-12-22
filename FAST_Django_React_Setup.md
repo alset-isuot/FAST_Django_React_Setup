@@ -188,6 +188,13 @@ code server_app/models.py
 ```python
 from django.db import models
 from django.contrib.auth.models import (AbstractUser)
+
+# Inheriting from 'AbstractUser' lets us use all the fields of the default User, 
+# and overwrites the fields we need to change
+# This is different from 'AbstractBaseUser', which only gets the password
+# management feactures from the default User, and needs the developer to 
+# define other relevant fields.
+
 # Create your models here.
 class AppUser(AbstractUser): #userCLassName
     """
@@ -198,14 +205,11 @@ class AppUser(AbstractUser): #userCLassName
         unique=True,
     )
 
-    # A user account must be active to log in, ect.
-    is_active = models.BooleanField(
-        default=False, # might need to turn to True
-        help_text='Designates whether this user should be treated as active. Unselect this instead of deleting accounts.', verbose_name='active'
-    )
-
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+# notice the absence of a "Password field", because its already built in
+# Django uses the 'username' to identify users by default, but many modern applications use 'email' instead
+    #we're using email as username
+    USERNAME_FIELD = 'email' # email is the data that is authenticating user, this allows us to just send in the email
+    REQUIRED_FIELDS = [] # Email and Password are required by default
 ```
 
 ### Run Migrations
