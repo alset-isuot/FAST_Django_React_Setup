@@ -224,8 +224,8 @@ class AppUser(AbstractUser): #userCLassName
 
 ### Run Migrations
 ```bash
-python3 manage.py makemigrations
-python3 manage.py migrate
+python3 manage.py makemigrations    # Packages up your model changes into individual migration files 
+python3 manage.py migrate     # Applies migration files to your database
 ```
 
 ## Use FRONT-END terminal -- Edit front-end files
