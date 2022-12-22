@@ -14,7 +14,7 @@ mkdir Django_Auth_Review
 cd Django_Auth_Review 
 ```    
 ## open two terminals to empty root directory -- 'Django_Auth_Review'
-name each one, and select color of each, one for backend (server) and one for frontend (client)
+name each one, and select color of each, one for back-end (server) and one for front-end (client)
 
 # Use Frontend terminal
 ```bash
@@ -52,7 +52,7 @@ npm run dev
 npm install --save axios react-router-dom bootstrap react-bootstrap       
 ```
 
-# use Backend terminal
+# Use BACK-END terminal
 Create virtual environment, use '.venv' instead of 'venv', helps the vscode debugger to recognize the virtual environment
 ```bash
 python3 -m venv .venv
@@ -116,8 +116,8 @@ pip freeze > requirements.txt
 python3 manage.py runserver
 ```
 
-# Connect Backend and Frontend
-## use backend terminal -- Edit backend files
+# Connect BACK-END and FRONT-END
+## Use BACK-END terminal -- Edit back-end files
 ### Edit server/settings.py, add code to file
 ```bash
 code server/settings.py
@@ -228,7 +228,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-## use Frontend terminal -- Edit frontend files
+## Use FRONT-END terminal -- Edit front-end files
 ### Edit vite.config.js
 ```bash
 code vite.config.js
