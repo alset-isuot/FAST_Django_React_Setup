@@ -86,7 +86,7 @@ mkdir static
 ```bash
 touch .gitignore 
 ```
-add static to gitignore
+add static to .gitignore, when someone else clones our app, they use build command to repopulate the 'static' folder
 ```bash
 code .gitignore
 ```
