@@ -56,6 +56,7 @@ npm install --save axios react-router-dom bootstrap react-bootstrap
 ```bash
 python3 -m venv .venv
 ```
+Activate virtual environment
 ```bash
 source .venv/bin/activate
 ```
