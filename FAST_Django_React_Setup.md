@@ -14,7 +14,7 @@ mkdir Django_Auth_Review
 cd Django_Auth_Review 
 ```    
 ## open two terminals to empty root directory -- 'Django_Auth_Review'
-name each one, and select color of each, one for backend(server) and one for frontend (client)
+name each one, and select color of each, one for backend (server) and one for frontend (client)
 
 # Use Frontend terminal
 ```bash
