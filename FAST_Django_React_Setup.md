@@ -94,7 +94,7 @@ add static to .gitignore, when someone else clones our app, they will use build 
 ```bash
 code .gitignore
 ```
-
+Create urls.py for django app
 ```bash
 touch server_app/urls.py
 ```
