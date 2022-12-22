@@ -53,6 +53,7 @@ npm install --save axios react-router-dom bootstrap react-bootstrap
 ```
 
 # use Backend terminal
+Create virtual environment, use '.venv' instead of 'venv', helps the vscode debugger to recognize the virtual environment
 ```bash
 python3 -m venv .venv
 ```
