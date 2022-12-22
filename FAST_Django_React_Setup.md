@@ -1,4 +1,4 @@
-# FAST Frontend (React) and Backend (Django) Setup and Connection
+# FAST FULL-STACK: Front-End (React) and Back-End (Django) Setup and Connection
 
 # Create empty root directory --  we're in root directory for application
 ```bash
