@@ -73,12 +73,14 @@ Django pip installs, backend setups
 ```bash
 pip install django psycopg2 djangorestframework markdown django-filter
 ```
+Creates boilerplate django files
 ```bash
 python -m django startproject server
 ```
 ```bash
 cd server
 ```
+Creates app folder and files
 ```bash
 python -m django startapp server_app
 ```
@@ -97,6 +99,10 @@ code .gitignore
 Create urls.py for django app
 ```bash
 touch server_app/urls.py
+```
+Creates a user with admin level permissions (admin panel)
+```bash
+python3 manage.py createsuperuser 
 ```
 If wanted name of database has already been used, you must drop it to create a new one with same name
 ```bash
