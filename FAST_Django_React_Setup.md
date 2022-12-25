@@ -71,7 +71,7 @@ code .gitignore
 ```
 Django pip installs, backend setups
 ```bash
-pip install django psycopg2 djangorestframework markdown django-filter
+pip install django psycopg2 djangorestframework markdown django-filter django-cors-headers
 ```
 Creates boilerplate django files
 ```bash
