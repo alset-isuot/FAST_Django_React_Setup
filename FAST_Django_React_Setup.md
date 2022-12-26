@@ -70,8 +70,9 @@ Add .venv to .gitignore file
 code .gitignore
 ```
 Django pip installs, backend setups
+django-cors-headers will allow our frontend to make requests to backend (they're going to be running on different ports)
 ```bash
-pip install django psycopg2 djangorestframework markdown django-filter django-cors-headers
+pip install django psycopg2 psycopg2-binary djangorestframework markdown django-filter django-cors-headers
 ```
 Creates boilerplate django files
 ```bash
