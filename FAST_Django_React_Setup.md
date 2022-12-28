@@ -1,5 +1,5 @@
 # FAST FULL-STACK: Front-End (React) and Back-End (Django) Setup and Connection
-
+A github .md file I created for a fast setup for React and Django, ideally can be created in under 10 minutes if each step is followed exactly.
 # Create empty root directory --  we're in root directory for application
 ```bash
 mkdir Day1
