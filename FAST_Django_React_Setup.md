@@ -192,7 +192,7 @@ def index(request):
     homepage
     """
     print('index')
-    homepage = open('./static/index.html').read()
+    homepage = open('static/index.html').read()
     return HttpResponse(homepage)
 
 # API ROUTES
